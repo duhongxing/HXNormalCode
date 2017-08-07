@@ -27,6 +27,7 @@
 		228BF7051F2B2C9D000FBE75 /* DateHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF7041F2B2C9D000FBE75 /* DateHandleViewController.m */; };
 		228BF7081F2B372B000FBE75 /* CatchExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF7071F2B372B000FBE75 /* CatchExceptionViewController.m */; };
 		228BF70B1F2B38AB000FBE75 /* ValueHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */; };
+		229E776E1F37F567001E335C /* HXFileHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E776D1F37F567001E335C /* HXFileHandleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		228BF7071F2B372B000FBE75 /* CatchExceptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchExceptionViewController.m; sourceTree = "<group>"; };
 		228BF7091F2B38AB000FBE75 /* ValueHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueHandleViewController.h; sourceTree = "<group>"; };
 		228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueHandleViewController.m; sourceTree = "<group>"; };
+		229E776C1F37F567001E335C /* HXFileHandleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFileHandleManager.h; sourceTree = "<group>"; };
+		229E776D1F37F567001E335C /* HXFileHandleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFileHandleManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				221785D31F31CD6A00CD4662 /* PrefixHeader.pch */,
 				221785CF1F31CD6A00CD4662 /* HXAccountManager.h */,
 				221785D01F31CD6A00CD4662 /* HXAccountManager.m */,
+				229E776C1F37F567001E335C /* HXFileHandleManager.h */,
+				229E776D1F37F567001E335C /* HXFileHandleManager.m */,
 				221785CD1F31CD6A00CD4662 /* Category */,
 				221785CE1F31CD6A00CD4662 /* Extension */,
 				221785D11F31CD6A00CD4662 /* Macros */,
@@ -400,6 +405,7 @@
 				228BF6B61F2ACF0A000FBE75 /* AppDelegate.m in Sources */,
 				228BF6FD1F2B1760000FBE75 /* HXBaseViewController.m in Sources */,
 				228BF6B31F2ACF0A000FBE75 /* main.m in Sources */,
+				229E776E1F37F567001E335C /* HXFileHandleManager.m in Sources */,
 				228BF7081F2B372B000FBE75 /* CatchExceptionViewController.m in Sources */,
 				228BF6F91F2B174F000FBE75 /* DataStoredViewController.m in Sources */,
 				221785DA1F31D4F700CD4662 /* RegularExpressionViewController.m in Sources */,

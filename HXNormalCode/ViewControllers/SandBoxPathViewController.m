@@ -19,7 +19,7 @@
  */
 
 #import "SandBoxPathViewController.h"
-
+#import "HXFileHandleManager.h"
 @interface SandBoxPathViewController ()
 
 @property (nonatomic,strong)UITextView *inforText;
@@ -39,6 +39,8 @@
     [self filePathHandle];
 
     [self fieleManagerHandle];
+
+    [self fileHandleManagerTest];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -221,6 +223,28 @@
     NSNumber *fileSize =[fileAttr objectForKey:NSFileSize];
     long long sizeValue = [fileSize longLongValue];
     NSLog(@"文件大小:%lldKB",sizeValue/1024);
+}
+
+
+#pragma mark ======= FileHandleManager 测试 =======
+
+//文件操作管理测试
+- (void)fileHandleManagerTest{
+
+    HXFileHandleManager *manager =[HXFileHandleManager shareInstance];
+
+    NSString *completeFilePath = [manager completeFilePathWithSearchDirectoryPath:NSDocumentDirectory FileName:@"皈依佛" Extension:@"text"];
+    StringLog(completeFilePath);
+
+    NSString *imgPath =[manager filePathFromBundleWithFileName:@"iOS 开发" fileType:@"jpg"];
+    StringLog(imgPath);
+    NSLog(@"%lld",[manager fileSizeAtFilePath:imgPath]/1024);
+
+    NSString *directory = [manager fileDiectoryDomainWithSearchDirectoryPath:NSDocumentDirectory];
+
+    NSLog(@"%@",[manager filesPathFromDirectory:directory]);
+
+
 }
 
 
