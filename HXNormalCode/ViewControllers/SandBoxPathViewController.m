@@ -59,23 +59,23 @@
 
     //HomeDirectory
     NSString *homeDirectory = NSHomeDirectory();
-    StringLog(homeDirectory);
+    StringLog(@"%@",homeDirectory);
 
     //DocumentDirectory
     NSString *documentDirectory =[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-    StringLog(documentDirectory);
+    StringLog(@"%@",documentDirectory);
 
     //CachesDirectory
     NSString *cachesDirectory =[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
-    StringLog(cachesDirectory);
+    StringLog(@"%@",cachesDirectory);
 
     //tempDirectory
     NSString *tempDirectory = NSTemporaryDirectory();
-    StringLog(tempDirectory);
+    StringLog(@"%@",tempDirectory);
 
     //获取应用程序包中资源文件路径的方法
     NSString *ImgPath =[[NSBundle mainBundle]pathForResource:@"iOS 开发" ofType:@"jpg"];
-    StringLog(ImgPath);
+    StringLog(@"%@",ImgPath);
 
     [string appendFormat:@"homeDirectory:\n%@\n\n documentDirectory:\n%@\n\n cachesDirectory:\n%@\n\n tempDirectory:\n%@\n\n ImgPath:\n%@\n\n",homeDirectory,documentDirectory,cachesDirectory,tempDirectory,ImgPath];
 
@@ -91,10 +91,10 @@
     NSString *fielPath = @"/Users/macos/Library/Developer/CoreSimulator/Devices/C11A06D1-3BF8-4A48-AB43-2729E9B7E161/data/Containers/Bundle/Application/D10F4358-C819-4CE0-A490-191585410D0D/HXNormalCode.app/iOS 开发.jpg";
     //返回路径组成
     NSArray *array =[fielPath pathComponents];
-    StringLog(array);
+    StringLog(@"%@",array);
     //路径最后的部分
     NSString *lastComponent =[[fielPath pathComponents]lastObject];
-    StringLog(lastComponent);
+    StringLog(@"%@",lastComponent);
 
     //追加路径
     //自己添加“/”
@@ -104,19 +104,19 @@
 
     //删除最后的组成部分
     NSString *deleteLastPath =[fielPath stringByDeletingLastPathComponent];
-    StringLog(deleteLastPath);
+    StringLog(@"%@",deleteLastPath);
 
     //删除扩展名
     NSString *deleteExtenstion =[fielPath stringByDeletingPathExtension];
-    StringLog(deleteExtenstion);
+    StringLog(@"%@",deleteExtenstion);
 
     //获取最后部分的扩展名
     NSString *appendExtenstion =[fielPath pathExtension];
-    StringLog(appendExtenstion);
+    StringLog(@"%@",appendExtenstion);
 
     //追加扩展名
     NSString *appendExt =[fielPath stringByAppendingPathExtension:@"jpg"];
-    StringLog(appendExt);
+    StringLog(@"%@",appendExt);
 
 }
 
@@ -128,11 +128,11 @@
 
     //源文件路径
     NSString *srcPath =[NSHomeDirectory() stringByAppendingPathComponent:@"iOS 开发.txt"];
-    StringLog(srcPath);
+    StringLog(@"%@",srcPath);
 
     //目标文件路径
     NSString *targetPath =[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/iOS 开发.txt"];
-    StringLog(targetPath);
+    StringLog(@"%@",targetPath);
 
     //注意:使用NSFileHandle 只能读写已经存在的文件 不能创建文件；使用NSFileManager创建文件
     NSFileManager *fileManager =[NSFileManager defaultManager];
@@ -201,11 +201,11 @@
 
     //获取文件的路径
     NSString *file =[[NSBundle mainBundle]pathForResource:@"iOS 开发" ofType:@"jpg"];
-    StringLog(file);
+    StringLog(@"%@",file);
 
     //获取文件的属性信息
     NSDictionary *fileAttr =[fileManager attributesOfItemAtPath:file error:nil];
-    StringLog(fileAttr);
+    StringLog(@"%@",fileAttr);
 //    NSFileCreationDate = "2017-07-28 02:55:32 +0000";
 //    NSFileExtensionHidden = 0;
 //    NSFileGroupOwnerAccountID = 20;
@@ -234,15 +234,15 @@
     HXFileHandleManager *manager =[HXFileHandleManager shareInstance];
 
     NSString *completeFilePath = [manager completeFilePathWithSearchDirectoryPath:NSDocumentDirectory FileName:@"皈依佛" Extension:@"text"];
-    StringLog(completeFilePath);
+    StringLog(@"%@",completeFilePath);
 
     NSString *imgPath =[manager filePathFromBundleWithFileName:@"iOS 开发" fileType:@"jpg"];
-    StringLog(imgPath);
+    StringLog(@"%@",imgPath);
     NSLog(@"%lld",[manager fileSizeAtFilePath:imgPath]/1024);
 
     NSString *directory = [manager fileDiectoryDomainWithSearchDirectoryPath:NSDocumentDirectory];
 
-    NSLog(@"%@",[manager filesPathFromDirectory:directory]);
+    NSLog(@"%@",[manager fileNamesFromDirectory:directory]);
 
 
 }

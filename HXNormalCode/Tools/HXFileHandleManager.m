@@ -50,7 +50,6 @@
     }
 }
 
-
 - (NSString *)filePathWithSearchDirectoryPath:(NSSearchPathDirectory)pathDirectory FileName:(NSString *)fileName{
     NSString *filePath = [[self fileDiectoryDomainWithSearchDirectoryPath:pathDirectory] stringByAppendingPathComponent:fileName];
     return filePath;

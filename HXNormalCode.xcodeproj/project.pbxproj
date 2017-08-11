@@ -10,7 +10,10 @@
 		221785D41F31CD6A00CD4662 /* HXAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221785D01F31CD6A00CD4662 /* HXAccountManager.m */; };
 		221785D71F31CE0300CD4662 /* EncryptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221785D61F31CE0300CD4662 /* EncryptionViewController.m */; };
 		221785DA1F31D4F700CD4662 /* RegularExpressionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221785D91F31D4F700CD4662 /* RegularExpressionViewController.m */; };
+		22217D001F3AFBC900BAD4F9 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22217CFF1F3AFBC900BAD4F9 /* BlockViewController.m */; };
+		22217D031F3B0FB300BAD4F9 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22217D021F3B0FB300BAD4F9 /* RunLoopViewController.m */; };
 		222AA9E11F32BE7A00FDD575 /* LLDBCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AA9E01F32BE7A00FDD575 /* LLDBCommandViewController.m */; };
+		22652F481F3D431500398056 /* RunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22652F471F3D431500398056 /* RunTimeViewController.m */; };
 		228BF6B31F2ACF0A000FBE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF6B21F2ACF0A000FBE75 /* main.m */; };
 		228BF6B61F2ACF0A000FBE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF6B51F2ACF0A000FBE75 /* AppDelegate.m */; };
 		228BF6B91F2ACF0A000FBE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF6B81F2ACF0A000FBE75 /* ViewController.m */; };
@@ -28,6 +31,10 @@
 		228BF7081F2B372B000FBE75 /* CatchExceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF7071F2B372B000FBE75 /* CatchExceptionViewController.m */; };
 		228BF70B1F2B38AB000FBE75 /* ValueHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */; };
 		229E776E1F37F567001E335C /* HXFileHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E776D1F37F567001E335C /* HXFileHandleManager.m */; };
+		22F67D3A1F3BF8D800517F02 /* ConcurrentProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F67D391F3BF8D800517F02 /* ConcurrentProgrammingViewController.m */; };
+		22F67D3D1F3C247000517F02 /* FindMinMaxThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F67D3C1F3C247000517F02 /* FindMinMaxThread.m */; };
+		22F67D401F3C27DF00517F02 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F67D3F1F3C27DF00517F02 /* GCDViewController.m */; };
+		22F67D441F3C469E00517F02 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F67D431F3C469E00517F02 /* OperationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +58,19 @@
 		221785CF1F31CD6A00CD4662 /* HXAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAccountManager.h; sourceTree = "<group>"; };
 		221785D01F31CD6A00CD4662 /* HXAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAccountManager.m; sourceTree = "<group>"; };
 		221785D21F31CD6A00CD4662 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		221785D31F31CD6A00CD4662 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		221785D51F31CE0300CD4662 /* EncryptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionViewController.h; sourceTree = "<group>"; };
 		221785D61F31CE0300CD4662 /* EncryptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionViewController.m; sourceTree = "<group>"; };
 		221785D81F31D4F700CD4662 /* RegularExpressionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionViewController.h; sourceTree = "<group>"; };
 		221785D91F31D4F700CD4662 /* RegularExpressionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionViewController.m; sourceTree = "<group>"; };
+		22217CFE1F3AFBC900BAD4F9 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		22217CFF1F3AFBC900BAD4F9 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		22217D011F3B0FB300BAD4F9 /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		22217D021F3B0FB300BAD4F9 /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 		222AA9DF1F32BE7A00FDD575 /* LLDBCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDBCommandViewController.h; sourceTree = "<group>"; };
 		222AA9E01F32BE7A00FDD575 /* LLDBCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDBCommandViewController.m; sourceTree = "<group>"; };
+		22652F461F3D431500398056 /* RunTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeViewController.h; sourceTree = "<group>"; };
+		22652F471F3D431500398056 /* RunTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeViewController.m; sourceTree = "<group>"; };
+		22652F491F3D81F600398056 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		228BF6AE1F2ACF0A000FBE75 /* HXNormalCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXNormalCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228BF6B21F2ACF0A000FBE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		228BF6B41F2ACF0A000FBE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +104,14 @@
 		228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueHandleViewController.m; sourceTree = "<group>"; };
 		229E776C1F37F567001E335C /* HXFileHandleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFileHandleManager.h; sourceTree = "<group>"; };
 		229E776D1F37F567001E335C /* HXFileHandleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFileHandleManager.m; sourceTree = "<group>"; };
+		22F67D381F3BF8D800517F02 /* ConcurrentProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentProgrammingViewController.h; sourceTree = "<group>"; };
+		22F67D391F3BF8D800517F02 /* ConcurrentProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentProgrammingViewController.m; sourceTree = "<group>"; };
+		22F67D3B1F3C247000517F02 /* FindMinMaxThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMinMaxThread.h; sourceTree = "<group>"; };
+		22F67D3C1F3C247000517F02 /* FindMinMaxThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMinMaxThread.m; sourceTree = "<group>"; };
+		22F67D3E1F3C27DF00517F02 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		22F67D3F1F3C27DF00517F02 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		22F67D421F3C469E00517F02 /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		22F67D431F3C469E00517F02 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +142,13 @@
 		221785C71F31A5C100CD4662 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				221785D31F31CD6A00CD4662 /* PrefixHeader.pch */,
+				22652F491F3D81F600398056 /* PrefixHeader.pch */,
 				221785CF1F31CD6A00CD4662 /* HXAccountManager.h */,
 				221785D01F31CD6A00CD4662 /* HXAccountManager.m */,
 				229E776C1F37F567001E335C /* HXFileHandleManager.h */,
 				229E776D1F37F567001E335C /* HXFileHandleManager.m */,
+				22F67D3B1F3C247000517F02 /* FindMinMaxThread.h */,
+				22F67D3C1F3C247000517F02 /* FindMinMaxThread.m */,
 				221785CD1F31CD6A00CD4662 /* Category */,
 				221785CE1F31CD6A00CD4662 /* Extension */,
 				221785D11F31CD6A00CD4662 /* Macros */,
@@ -225,22 +248,34 @@
 		228BF6F41F2B174F000FBE75 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				22217CFE1F3AFBC900BAD4F9 /* BlockViewController.h */,
+				22217CFF1F3AFBC900BAD4F9 /* BlockViewController.m */,
+				22F67D381F3BF8D800517F02 /* ConcurrentProgrammingViewController.h */,
+				22F67D391F3BF8D800517F02 /* ConcurrentProgrammingViewController.m */,
+				228BF7061F2B372B000FBE75 /* CatchExceptionViewController.h */,
+				228BF7071F2B372B000FBE75 /* CatchExceptionViewController.m */,
 				228BF6F51F2B174F000FBE75 /* DataStoredViewController.h */,
 				228BF6F61F2B174F000FBE75 /* DataStoredViewController.m */,
 				228BF7031F2B2C9D000FBE75 /* DateHandleViewController.h */,
 				228BF7041F2B2C9D000FBE75 /* DateHandleViewController.m */,
-				228BF6F71F2B174F000FBE75 /* SandBoxPathViewController.h */,
-				228BF6F81F2B174F000FBE75 /* SandBoxPathViewController.m */,
-				228BF7061F2B372B000FBE75 /* CatchExceptionViewController.h */,
-				228BF7071F2B372B000FBE75 /* CatchExceptionViewController.m */,
-				228BF7091F2B38AB000FBE75 /* ValueHandleViewController.h */,
-				228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */,
 				221785D51F31CE0300CD4662 /* EncryptionViewController.h */,
 				221785D61F31CE0300CD4662 /* EncryptionViewController.m */,
-				221785D81F31D4F700CD4662 /* RegularExpressionViewController.h */,
-				221785D91F31D4F700CD4662 /* RegularExpressionViewController.m */,
+				22F67D3E1F3C27DF00517F02 /* GCDViewController.h */,
+				22F67D3F1F3C27DF00517F02 /* GCDViewController.m */,
 				222AA9DF1F32BE7A00FDD575 /* LLDBCommandViewController.h */,
 				222AA9E01F32BE7A00FDD575 /* LLDBCommandViewController.m */,
+				221785D81F31D4F700CD4662 /* RegularExpressionViewController.h */,
+				221785D91F31D4F700CD4662 /* RegularExpressionViewController.m */,
+				22217D011F3B0FB300BAD4F9 /* RunLoopViewController.h */,
+				22217D021F3B0FB300BAD4F9 /* RunLoopViewController.m */,
+				22652F461F3D431500398056 /* RunTimeViewController.h */,
+				22652F471F3D431500398056 /* RunTimeViewController.m */,
+				228BF6F71F2B174F000FBE75 /* SandBoxPathViewController.h */,
+				228BF6F81F2B174F000FBE75 /* SandBoxPathViewController.m */,
+				228BF7091F2B38AB000FBE75 /* ValueHandleViewController.h */,
+				228BF70A1F2B38AB000FBE75 /* ValueHandleViewController.m */,
+				22F67D421F3C469E00517F02 /* OperationViewController.h */,
+				22F67D431F3C469E00517F02 /* OperationViewController.m */,
 				228BF6FB1F2B1760000FBE75 /* HXBaseViewController.h */,
 				228BF6FC1F2B1760000FBE75 /* HXBaseViewController.m */,
 			);
@@ -401,17 +436,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				228BF7051F2B2C9D000FBE75 /* DateHandleViewController.m in Sources */,
+				22652F481F3D431500398056 /* RunTimeViewController.m in Sources */,
+				22217D031F3B0FB300BAD4F9 /* RunLoopViewController.m in Sources */,
 				228BF6B91F2ACF0A000FBE75 /* ViewController.m in Sources */,
+				22F67D401F3C27DF00517F02 /* GCDViewController.m in Sources */,
 				228BF6B61F2ACF0A000FBE75 /* AppDelegate.m in Sources */,
 				228BF6FD1F2B1760000FBE75 /* HXBaseViewController.m in Sources */,
 				228BF6B31F2ACF0A000FBE75 /* main.m in Sources */,
+				22F67D441F3C469E00517F02 /* OperationViewController.m in Sources */,
 				229E776E1F37F567001E335C /* HXFileHandleManager.m in Sources */,
+				22F67D3A1F3BF8D800517F02 /* ConcurrentProgrammingViewController.m in Sources */,
 				228BF7081F2B372B000FBE75 /* CatchExceptionViewController.m in Sources */,
 				228BF6F91F2B174F000FBE75 /* DataStoredViewController.m in Sources */,
 				221785DA1F31D4F700CD4662 /* RegularExpressionViewController.m in Sources */,
 				221785D71F31CE0300CD4662 /* EncryptionViewController.m in Sources */,
+				22217D001F3AFBC900BAD4F9 /* BlockViewController.m in Sources */,
 				228BF7021F2B1D3B000FBE75 /* HXAccountItem.m in Sources */,
 				221785D41F31CD6A00CD4662 /* HXAccountManager.m in Sources */,
+				22F67D3D1F3C247000517F02 /* FindMinMaxThread.m in Sources */,
 				228BF6FA1F2B174F000FBE75 /* SandBoxPathViewController.m in Sources */,
 				222AA9E11F32BE7A00FDD575 /* LLDBCommandViewController.m in Sources */,
 				228BF70B1F2B38AB000FBE75 /* ValueHandleViewController.m in Sources */,
@@ -562,8 +604,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/HXNormalCode/PrefixHeader.pch";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXNormalCode/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = HXNormalCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.HXNormalCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,8 +619,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DH387CSQPW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/HXNormalCode/PrefixHeader.pch";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXNormalCode/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = HXNormalCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.HXNormalCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";

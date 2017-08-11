@@ -195,6 +195,6 @@
  @param fileName2 文件名2
  @return 重命名结果
  */
-- (BOOL)reFileNameFromFileName1:(NSString *)fileName1 toFileName2:(NSString *)fileName2;
+- (BOOL)reFileNameFromFileName1:(NSString *)fileName1 toFileName2:(NSString *)fileName2 SearchDirectoryPath:(NSSearchPathDirectory)pathDirrctory;
 
 @end

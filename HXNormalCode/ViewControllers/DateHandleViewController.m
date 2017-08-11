@@ -34,17 +34,17 @@
 
     //获取昨天、今天、明天的日期
     NSDate *yesterdayDate = [NSDate dateWithTimeIntervalSinceNow: -(60 *60 *24)];
-    StringLog(yesterdayDate);
+    StringLog(@"%@",yesterdayDate);
 
     NSDate *currentDate = [NSDate date];
-    StringLog(currentDate);
+    StringLog(@"%@",currentDate);
 
     NSDate *tommorwDate =[NSDate dateWithTimeIntervalSinceNow:60 * 60 * 24];
-    StringLog(tommorwDate);
+    StringLog(@"%@",tommorwDate);
 
     //获取在1970年加上一个时间戳后的日期
     NSDate *date1970 =[NSDate dateWithTimeIntervalSince1970:0];
-    StringLog(date1970);
+    StringLog(@"%@",date1970);
 
     //获取某个日期的时间戳
 //    NSTimeInterval someDateTiemStamp = [currentDate timeIntervalSince1970];
